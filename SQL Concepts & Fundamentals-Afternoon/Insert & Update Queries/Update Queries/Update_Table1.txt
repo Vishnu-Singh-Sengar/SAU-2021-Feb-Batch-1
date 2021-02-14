@@ -1,0 +1,5 @@
+update StudentBasicInformation set StudentAddress='96968 Anderson Centers Suite 901 Williamsport, MI 90376' where StudentRollNo=4316976;
+update StudentBasicInformation set StudentAddress='265 Cameron Ferry South Sheila, AL 85300' where StudentRollNo=370518;
+update StudentBasicInformation set StudentAddress='886 Teresa Course South Dennisland, RI 22917' where StudentRollNo=4316976;
+update StudentBasicInformation set StudentAddress='0331 Jon Route Robertfort, MI 84482' where StudentRollNo=8209187;
+update StudentBasicInformation set StudentAddress='0506 Maria Via Apt. 031 Saratown, SC 20954' where StudentRollNo=9444289;

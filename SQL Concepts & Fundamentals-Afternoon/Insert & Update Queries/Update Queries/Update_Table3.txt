@@ -1,0 +1,5 @@
+update StudentSubjectInformation set SubjectOpted='Materials Sciences' where StudentRollNo=5939517;
+update StudentSubjectInformation set SubjectOpted='Materials Sciences,Mathematics,Physical Geography' where StudentRollNo=1181076;
+update StudentSubjectInformation set SubjectOpted='Life Sciences,Materials Sciences' where StudentRollNo=8087388;
+update StudentSubjectInformation set SubjectOpted='Sciences,Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences,Life Sciences,Materials Sciences,Mathematics,Physical Geography,Physics' where StudentRollNo=6463208;
+update StudentSubjectInformation set SubjectOpted='Life Sciences' where StudentRollNo=7764433;

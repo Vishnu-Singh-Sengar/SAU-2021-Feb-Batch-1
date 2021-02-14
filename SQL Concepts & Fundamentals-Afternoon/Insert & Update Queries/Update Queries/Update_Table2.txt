@@ -1,0 +1,5 @@
+update StudentAdmissionPaymentDetails set MethodOfPayment='UPI' where StudentRollNo=3895324;
+update StudentAdmissionPaymentDetails set MethodOfPayment='UPI' where StudentRollNo=4074423;
+update StudentAdmissionPaymentDetails set MethodOfPayment='Cheque' where StudentRollNo=673689;
+update StudentAdmissionPaymentDetails set MethodOfPayment='Cheque' where StudentRollNo=8862816;
+update StudentAdmissionPaymentDetails set MethodOfPayment='Cash' where StudentRollNo=8867862;

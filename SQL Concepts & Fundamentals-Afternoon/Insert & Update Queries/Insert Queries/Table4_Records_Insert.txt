@@ -1,0 +1,15 @@
+INSERT into SubjectScholarshipInformation Values('1434786','CLP India Scholarship Scheme','DESCRIPTION - 1',1800,'Private','4','USD');
+INSERT into SubjectScholarshipInformation Values('1998446','The Anant Fellowship','DESCRIPTION - 2',100000,'Government','4','INR');
+INSERT into SubjectScholarshipInformation Values('5885182','HERO INDIA','DESCRIPTION - 3',2400,'Private','2','INR');
+INSERT into SubjectScholarshipInformation Values('663255','L’Oréal India For Young Women in Science Scholarships','DESCRIPTION - 4',25000,'Private','2','INR');
+INSERT into SubjectScholarshipInformation Values('4984015','Sitaram Jindal Foundation Scholarship Scheme','DESCRIPTION - 5',12000,'Semi-Government','4','INR');
+INSERT into SubjectScholarshipInformation Values('2942796','Sitaram Jindal Foundation Scholarship Scheme','DESCRIPTION - 6',12000,'Semi-Government','4','INR');
+INSERT into SubjectScholarshipInformation Values('436721','Raman Kant Munjal Scholarship','DESCRIPTION - 7',730000,'Private','3','INR');
+INSERT into SubjectScholarshipInformation Values('8549137','Japanese Government (MEXT) Scholarships','DESCRIPTION - 8',117000,'Foreign','4','YEN');
+INSERT into SubjectScholarshipInformation Values('4103209','L’Oréal India For Young Women in Science Scholarships','DESCRIPTION - 9',25000,'Private','2','INR');
+INSERT into SubjectScholarshipInformation Values('4247655','CLP India Scholarship Scheme','DESCRIPTION - 10',1800,'Private','4','USD');
+INSERT into SubjectScholarshipInformation Values('9300900','NIU Scholarship cum Admission Test (NSAT)','DESCRIPTION - 11',8500,'Private','3','INR');
+INSERT into SubjectScholarshipInformation Values('3608365','Sitaram Jindal Foundation Scholarship Scheme','DESCRIPTION - 12',12000,'Semi-Government','4','INR');
+INSERT into SubjectScholarshipInformation Values('1702726','L’Oréal India For Young Women in Science Scholarships','DESCRIPTION - 13',25000,'Private','2','INR');
+INSERT into SubjectScholarshipInformation Values('5696799','The Anant Fellowship','DESCRIPTION - 14',100000,'Government','4','INR');
+INSERT into SubjectScholarshipInformation Values('3048303','Raman Kant Munjal Scholarship','DESCRIPTION - 15',730000,'Private','3','INR');

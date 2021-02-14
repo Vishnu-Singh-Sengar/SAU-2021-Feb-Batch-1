@@ -1,0 +1,7 @@
+create table StudentBasicInformation(StudentName varchar(255) NOT NULL, StudentSurname varchar(255) NOT NULL, StudentRollNo INT PRIMARY KEY, StudentAddress varchar(255) NOT NULL, StudentFatherName varchar(255), StudentMotherName varchar(255), StudentClass INT NOT NULL);
+
+create table StudentAdmissionPaymentDetails(StudentRollNo INT PRIMARY KEY, AmountPaid INT NOT NULL, AmountBalance INT, Fines INT, MethodOfPayment varchar(100) NOT NULL, Hosteller varchar(3) NOT NULL, LateAdmission varchar(3) NOT NULL);
+
+create table StudentSubjectInformation(SubjectOpted varchar(255) NOT NULL, StudentRollNo INT PRIMARY KEY, SubjectTotalMarks INT NOT NULL, SubjectObtainedMarks INT NOT NULL, StudentMarksPercentage FLOAT(5,2) NOT NULL, IsPassed varchar(7) NOT NULL);
+
+create table SubjectScholarshipInformation(StudentRollNo INT PRIMARY KEY, ScholarshipName MEDIUMTEXT, ScholarshipDescription Varchar(20), ScholarshipAmount INT, ScholarshipCategory varchar(30), ScholarshipTenure INT, ScholarshipCurrency varchar(15));

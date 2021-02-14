@@ -1,0 +1,15 @@
+INSERT into StudentSubjectInformation VALUES('Environmental Sciences,Food Science and Technology,General Sciences,Life Sciences,Materials Sciences','7647913','500','497','99.4','YES');
+INSERT into StudentSubjectInformation VALUES('Earth Sciences','5939517','100','81','81.13','YES');
+INSERT into StudentSubjectInformation VALUES('Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences','7653687','500','125','25.13','NO');
+INSERT into StudentSubjectInformation VALUES('Life Sciences,Materials Sciences','8741329','200','20','10.13','NO');
+INSERT into StudentSubjectInformation VALUES('Biomedical,Sciences,Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology','5195773','600','398','66.33','YES');
+INSERT into StudentSubjectInformation VALUES('Earth Sciences,Environmental Sciences','1857843','200','118','59.13','YES');
+INSERT into StudentSubjectInformation VALUES('Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences','6463208','400','129','32.25','NO');
+INSERT into StudentSubjectInformation VALUES('Life Sciences,Materials Sciences','8087388','200','67','33.5','YES');
+INSERT into StudentSubjectInformation VALUES('Food Science and Technology','1181076','100','41','41.13','YES');
+INSERT into StudentSubjectInformation VALUES('Food Science and Technology,General Sciences,Life Sciences,Materials Sciences,Mathematics,Physical Geography','7280114','600','6','1.13','NO');
+INSERT into StudentSubjectInformation VALUES('Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences,Life Sciences','7764433','600','322','53.669999999999995','YES');
+INSERT into StudentSubjectInformation VALUES('Biomedical,Sciences,Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences,Life Sciences,Materials Sciences,Mathematics,Physical Geography','9878512','1100','418','38.13','YES');
+INSERT into StudentSubjectInformation VALUES('Sciences,Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences,Life Sciences','3839847','700','490','70.13','YES');
+INSERT into StudentSubjectInformation VALUES('Chemistry,Earth Sciences,Environmental Sciences,Food Science and Technology,General Sciences,Life Sciences','6166948','600','236','39.33','YES');
+INSERT into StudentSubjectInformation VALUES('Astronomy,Biology,Biomedical,Sciences,Chemistry,Earth Sciences','57884','600','280','46.67','YES');

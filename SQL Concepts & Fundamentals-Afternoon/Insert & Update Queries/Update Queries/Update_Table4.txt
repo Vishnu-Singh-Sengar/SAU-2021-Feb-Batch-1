@@ -1,0 +1,5 @@
+update SubjectScholarshipInformation set ScholarshipDescription='Description -> 20' where StudentRollNo=1702726;
+update SubjectScholarshipInformation set ScholarshipDescription='Description -> 26' where StudentRollNo=5696799;
+update SubjectScholarshipInformation set ScholarshipDescription='Description -> 10' where StudentRollNo=436721;
+update SubjectScholarshipInformation set ScholarshipDescription='Description -> 23' where StudentRollNo=5885182;
+update SubjectScholarshipInformation set ScholarshipDescription='Description -> 23' where StudentRollNo=1998446;

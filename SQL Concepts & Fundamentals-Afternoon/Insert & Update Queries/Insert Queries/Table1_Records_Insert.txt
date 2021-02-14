@@ -1,0 +1,14 @@
+INSERT into StudentBasicInformation VALUES ('Andrew','Buchanan','453461','28959 Sonya Drive South Ricardo, HI 63087','Martin Sims','Amanda Moore','12','no');
+INSERT into StudentBasicInformation VALUES ('Maria','Johnston','1964390','3138 Davis Mountain Apt. 931 South Stevenchester, KY 51253','Luis Andreas','Marilyn Young','11','yes');
+INSERT into StudentBasicInformation VALUES ('Alan','Grollimund','6439006','4178 Christopher Views Suite 293 Lake Nathaniel, IN 49936','Gerard Reyna','Ruby Scallon','2','no');
+INSERT into StudentBasicInformation VALUES ('Hugo','Barre','8702173','1304 Andrew Hill South Natasha, WI 17701','Daniel Cook','Cathy Mix','4','no');
+INSERT into StudentBasicInformation VALUES ('Mary','Redfield','8209187','979 Shelly Hollow East Laurieview, TX 78435','Bruce Soliz','Hazel Fulmer','5','yes');
+INSERT into StudentBasicInformation VALUES ('Jordan','Graven','503480','0496 William Tunnel Apt. 238 Port Paulberg, PA 63031','Edmund Scarberry','Rosa Lynch','4','no');
+INSERT into StudentBasicInformation VALUES ('Linda','Sanders','5535741','57719 Payne Square Apt. 808 Wrightville, OR 75477','Roy Keith','Luana Lord','8','yes');
+INSERT into StudentBasicInformation VALUES ('Hubert','Harvey','3370518','20980 James Courts East Barbara, OR 36776','Alan Snipes','Arline Charles','12','no');
+INSERT into StudentBasicInformation VALUES ('Renee','Sanchez','6784727','02503 Scott Courts Apt. 750 West Dawntown, WY 64087','Chad Keenan','Amber Long','2','yes');
+INSERT into StudentBasicInformation VALUES ('Sara','Baumbach','1152857','95019 Cantrell Road Suite 997 Brendafort, NJ 37636','Christopher Schleider','Arlene Gilmore','10','yes');
+INSERT into StudentBasicInformation VALUES ('Melinda','Wright','9444289','953 Ashlee Row Apt. 619 Jonesmouth, VA 20178','James Ebling','Kathryn Marrs','3','yes');
+INSERT into StudentBasicInformation VALUES ('Jason','Garcia','4316976','0784 Jay Mill Johnstonton, NY 83218','Rick Palmer','Ilana Perez','13','yes');
+INSERT into StudentBasicInformation VALUES ('Robert','Rinaldi','8600206','31233 Brown Flat Suite 773 Harrisonhaven, MA 98811','Robert Hall','Barbara Lesueur','3','no');
+INSERT into StudentBasicInformation VALUES ('Richard','Mcconkey','6617786','0706 Natalie Crossroad Suite 970 Port Christinefurt, VT 60236','Jesse Bond','Maryann Dixon','1','no');

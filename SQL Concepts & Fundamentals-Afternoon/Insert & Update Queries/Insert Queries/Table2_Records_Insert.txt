@@ -1,0 +1,15 @@
+INSERT into StudentAdmissionPaymentDetails VALUES('3895324','17269','98397','9331','UPI','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('1919195','151710','89191','8378','Debit Card','no','no');
+INSERT into StudentAdmissionPaymentDetails VALUES('8862816','101089','79902','6390','UPI','no','no');
+INSERT into StudentAdmissionPaymentDetails VALUES('8034935','42509','70051','1358','Demand Draft','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('8451379','84621','56651','2300','Credit Card','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('8867862','57978','188461','1727','Cheque','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('9341595','54035','6123','3851','UPI','yes','no');
+INSERT into StudentAdmissionPaymentDetails VALUES('4135393','149257','91773','8465','UPI','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('673689','190792','92318','3880','Debit Card','no','no');
+INSERT into StudentAdmissionPaymentDetails VALUES('1734814','197300','115831','5727','Cheque','no','no');
+INSERT into StudentAdmissionPaymentDetails VALUES('7789414','131743','184931','710','UPI','no','no');
+INSERT into StudentAdmissionPaymentDetails VALUES('4739818','27154','117197','2644','Cash','yes','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('4074423','139373','174240','6935','Debit Card','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('2765565','71083','119767','8264','Debit Card','no','yes');
+INSERT into StudentAdmissionPaymentDetails VALUES('1847020','107791','5678','8944','Net Banking','yes','no');
