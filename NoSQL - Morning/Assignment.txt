@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+- search movies by name
+- search movies by city name
+- insert movie
+- delete movie
+
+------------------------------------------------------------------------------
+
+Football
+
+- get me the names of the footballers having more than 10 goals.
+
+
+-------------------------------------------------------------------------------
+
+3. Remove primary index, add approapriate index
+
+
+--------------------------------------------------------------------------------
