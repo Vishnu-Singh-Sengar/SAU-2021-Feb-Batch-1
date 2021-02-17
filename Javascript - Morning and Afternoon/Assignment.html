@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Assignment JS Vishnu</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <div class="row">
+            <div class="col-sm-6">
+
+            
+                <div class="card" style="width: 20rem; margin-top: 20px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Question 3</h5>
+                    <ul class="card-text">
+                            <li>
+                                String starts with lion
+                            </li>
+                            <li>
+                                String ends with
+                            </li>
+                            <li>
+                                String has abc (b can be any number of times >1)
+                            </li>
+                      </ul>
+                    <input type="text" id="strq2" placeholder="Enter String here" />
+                    <button class="btn btn-primary btn-sm" onclick="checkStrQ2()">Send</button>
+                    <h6 id="resq2"></h6><h6 id="locq2"></h6>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6">
+                
+                <div class="card" style="width: 20rem; margin-top: 20px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Question 4</h5>
+                    <ul class="card-text">
+                            <li>
+                                Sort in ascending order
+                            </li>
+                            <li>
+                                Multiply each number by 10
+                            </li>
+                            <li>
+                                Return number divisible by 3
+                            </li>
+                      </ul>
+                    <input type="text" id="strq3" placeholder="Comma Seperated Nos" />
+                    <button class="btn btn-primary btn-sm" onclick="checkStrQ3()">Find</button>
+                      <h6 id="resq3"></h6>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6">
+                
+                <div class="card" style="width: auto; margin-top: 20px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Question 4</h5>
+                    <ul class="card-text">
+                            <li>
+                                Difference between == and === with example.
+                            </li>
+                            
+                      </ul>
+                    <p><b>Answer:</b>The == operator is capable to change the values being checked by performing some type conversions which JS thinks as human error but in case of ===, no conversions are performed and it is considered as a strricyt equality.</p>
+                    
+                    <p>Like, 20=="20" will return <b>True</b> as RHS will be treated as number.</p>
+                    
+                    <p>Whereas, 20==="20" will return <b>False</b> as RHS will be treated <b>strictly</b> as string.
+                    </p>
+                      
+                  </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script>
+            
+            function checkStrQ2(){
+                var str1=document.getElementById('strq2').value;
+                var str=str1.toLowerCase();
+                var v1=false;
+                var v2=false;
+                var v3=false;
+                var loc;
+                if(/^lion/.test(str)) {
+                    v1= true;
+                    loc=str.indexOf("lion");
+                }
+                else if(/cat$/.test(str)){
+                    v2=true;
+                    loc=str.indexOf("cat");
+                }
+                else if (/ab+c/.test(str)){
+                    v3=true;
+                    loc=/ab+c/.exec(str);
+                }
+                var res= v1||v2||v3;
+                document.getElementById("resq2").innerHTML="Result: "+res;
+                document.getElementById("locq2").innerHTML="Location: "+loc;
+            }
+            
+            function checkStrQ3(){
+                var str=document.getElementById('strq3').value;             
+                var arr = JSON.parse("[" + str + "]");
+                
+                var mulArr=arr.map(function(x) { return x * 10; });
+                var resArr=mulArr.filter(function(a){return a%3===0;})
+                var finArr=resArr.map(function(x){return x/10;});
+                document.getElementById("resq3").innerHTML="Result: "+finArr;
+            }
+            
+        </script>
+        
+    </body>
+</html>
