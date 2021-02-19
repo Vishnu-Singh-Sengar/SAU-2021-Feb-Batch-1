@@ -1,0 +1,40 @@
+{
+  "bookLib": [
+    {
+      "id": 1,
+      "title": "Ikigai",
+      "author": "Francesc Miralles and Hector Garcia",
+      "description": "Ikigai  is a Japanese concept that means, a reason for being. The word refers to having a direction or purpose in life, that which makes one's life worthwhile, and towards which an individual takes spontaneous and willing actions giving them satisfaction and a sense of meaning to life."
+    },
+    {
+      "title": "Harry Potter",
+      "author": "J. K. Rowling",
+      "description": "Scarred orphan struggles to maintain anonymity",
+      "id": 2
+    },
+    {
+      "title": "Five Point Someone",
+      "author": "Chetan Bhagat",
+      "description": "A beautiful description of events happening in the life of a college goer.",
+      "id": 4
+    },
+    {
+      "title": "Famous Five",
+      "author": "Enid Blyton",
+      "description": "An adventure story of five boys who find there way to mysterious events during there summers.",
+      "id": 5
+    },
+    {
+      "title": "The Bad Beginning",
+      "author": "Daniel Handler",
+      "description": "Story of siblings who live a life of bad fate and nothing good ever comes their way.",
+      "id": 6
+    },
+    {
+      "title": "Hardy Boys",
+      "author": "Enid Blyton",
+      "description": "Adventure Novel",
+      "id": 7
+    }
+  ]
+}
