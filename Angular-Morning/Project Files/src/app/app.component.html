@@ -1,0 +1,23 @@
+<div id="AUtabled"
+
+style="
+margin-top: 50px;
+margin-left: 35%;"
+> 
+<h1>Live Preview Text Box</h1>
+  <input #box (keyup)="0" placeholder="Enter text here"><br><br>
+   <p id="liveOut">Live Output: <b> {{box.value}} </b></p>
+  <table id="AUTable">
+      <tr>
+          <td>Log</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td><input size=25 type="text" id="latbox" value="{{box.value}}" readonly=true/></td>
+          <td><input type="button" id="delPOIbutton" value="Delete Record" onclick="deleteRow(this)"/></td>
+          <td><input type="button" id="addmorePOIbutton" value="Add Record" onclick="insRow()"/></td>
+      </tr>
+  </table>
+</div>
+
+<router-outlet></router-outlet>
