@@ -12,7 +12,12 @@ class MainPage extends Component {
       author:'',
       description:''
     },
-    newBookModal: false
+    newBookModal: false,
+    searchTemp:"",
+    search:"",
+    isDisabled: "Yes",
+    bookFoundID: "",
+    bookFoundText: "Enter Title to search!"
   }
   componentWillMount() {
     this.refreshBook();
@@ -21,6 +26,9 @@ class MainPage extends Component {
     this.setState({
       newBookModal: ! this.state.newBookModal
     });
+  }
+  onchange = e =>{
+    this.setState({searchTemp: e.target.value});
   }
 
   addBook(){
@@ -35,6 +43,19 @@ class MainPage extends Component {
       }
     });
     });
+  }
+  updateSearch(){
+    const {searchTemp}=this.state;
+    this.setState({search:searchTemp});
+    const {search}=this.state;
+    if(search !==""){
+      let books=this.state.books.map((book)=>{
+        const bid=book.id;
+        if(book.title.toLowerCase().includes(search.toLocaleLowerCase())){
+          this.setState({bookFoundID: bid, isDisabled: "", bookFoundText: "Book Found!"});
+        }
+      });
+    }
   }
 
   delBook(id){
@@ -72,7 +93,16 @@ class MainPage extends Component {
     return (
       <div className="MainPage container">
         <h1 className="mt-5">Accolite University Library</h1>
+        <hr></hr>
         <Button className="my-3" color="primary" onClick={this.toggleNewBookModal.bind(this)}>Add Book</Button>
+        <br></br><hr></hr>
+        <div className="input-group mb-3">
+          <div className="input-group-append mr-2">
+            <Input label="Search Book" icon ='search' onChange={this.onchange} placeholder="Enter title of book" />
+          </div>
+            <Button color="primary" onClick={this.updateSearch.bind(this)}>Search</Button>
+        </div>
+        <p>{this.state.bookFoundText}<Link to={'/'+ this.state.bookFoundID }><Button color="primary" className="m-3" disabled={this.state.isDisabled}>View Book</Button></Link> </p>
         <hr></hr>
         <Modal isOpen={this.state.newBookModal} toggle={this.toggleNewBookModal.bind(this)}>
           <ModalHeader toggle={this.toggleNewBookModal.bind(this)}>Add A New Book</ModalHeader>
