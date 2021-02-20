@@ -1,0 +1,2 @@
+module au.Java.Assignment {
+}
