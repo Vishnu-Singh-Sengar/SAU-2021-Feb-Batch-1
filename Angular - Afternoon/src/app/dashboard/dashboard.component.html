@@ -3,11 +3,13 @@
     <h2 style="color: rgb(180, 180, 180);">ADD NEW SESSION</h2>
   </div>
   <div class="col-md-1 mt-5">
-    <button [matBadge]="SessionDetails.length" matBadgePosition="after" matBadgeColor="primary" class="noOutlinebutton" mat-raised-button
+    <button class="noOutlinebutton" mat-raised-button
       color="basic" [routerLink]="['/Add']">
-      <mat-icon>add</mat-icon>
+      <mat-icon>add</mat-icon> 
     </button>
   </div>
+  <div class="col-md-3 mt-5"><h2 style="color: rgb(0, 2, 112);">Current total count: {{SessionDetails.length}} </h2></div>
+
 
 
 </div>
@@ -20,7 +22,7 @@
       <div class="card-body">
         <h2>{{ item.name }}</h2>
         <h4> {{ item.InsName }}</h4>
-        <h4> {{ item.desc }}</h4>
+        <h4><b> {{ item.desc }} </b></h4>
         <div id="cardBut">
           <button class="noOutlinebutton mat-elevation-z10 ml-3" mat-fab color="primary" aria-label="Example icon button with a delete icon" [routerLink]="['/Delete', item.id]">
             <mat-icon>delete</mat-icon>
