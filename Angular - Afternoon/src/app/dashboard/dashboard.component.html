@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-md-0 mt-5">
+    <h2 style="color: rgb(180, 180, 180);">ADD NEW SESSION</h2>
+  </div>
+  <div class="col-md-1 mt-5">
+    <button [matBadge]="SessionDetails.length" matBadgePosition="after" matBadgeColor="primary" class="noOutlinebutton" mat-raised-button
+      color="basic" [routerLink]="['/Add']">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+
+
+</div>
+
+<div class="row">
+
+  <ng-container *ngFor="let item of SessionDetails">
+    <div class="card mat-elevation-z6"  style="width: 18rem;     margin: 21px;"  *ngIf="item.Visibility">
+      <img class="mat-elevation-z12" mat-card-image src="https://i.ibb.co/DYJ9Kbg/isaac-smith-6-En-TPv-PPL6-I-unsplash.jpg" alt="Photo of a Shiba Inu">
+      <div class="card-body">
+        <h2>{{ item.name }}</h2>
+        <h4> {{ item.InsName }}</h4>
+        <h4> {{ item.desc }}</h4>
+        <div id="cardBut">
+          <button class="noOutlinebutton mat-elevation-z10 ml-3" mat-fab color="primary" aria-label="Example icon button with a delete icon" [routerLink]="['/Delete', item.id]">
+            <mat-icon>delete</mat-icon>
+          </button> 
+          <button class="noOutlinebutton mat-elevation-z10 mr-3" mat-fab color="primary" aria-label="Example icon button with a delete icon" [routerLink]="['/Update', item.id]">
+            <mat-icon>edit</mat-icon>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </ng-container>
+
+
+
+
+</div>
+
