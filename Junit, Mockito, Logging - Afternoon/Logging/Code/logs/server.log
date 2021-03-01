@@ -1,0 +1,22 @@
+2021-03-01 21:20:21 DEBUG Main:16 - Hello there!
+2021-03-01 21:20:21 DEBUG Main:16 - Hello there!
+2021-03-01 21:20:21 INFO  Main:17 - Hello there!
+2021-03-01 21:20:21 INFO  Main:17 - Hello there!
+2021-03-01 21:20:21 WARN  Main:18 - Hello there!
+2021-03-01 21:20:21 WARN  Main:18 - Hello there!
+2021-03-01 21:20:21 ERROR Main:19 - Hello there!
+2021-03-01 21:20:21 ERROR Main:19 - Hello there!
+2021-03-01 21:20:21 FATAL Main:20 - Hello there!
+2021-03-01 21:20:21 FATAL Main:20 - Hello there!
+2021-03-01 21:20:21 INFO  LoggerEntryPoint:13 - now in org.remad.logging.LoggerEntryPoint
+2021-03-01 21:20:21 INFO  LoggerEntryPoint:13 - now in org.remad.logging.LoggerEntryPoint
+2021-03-01 21:20:21 FATAL Protocol:13 - Fatal error.
+2021-03-01 21:20:21 FATAL Protocol:13 - Fatal error.
+2021-03-01 21:20:21 ERROR Protocol:14 - Error happened.
+2021-03-01 21:20:21 ERROR Protocol:14 - Error happened.
+2021-03-01 21:20:21 WARN  Protocol:15 - Warning message.
+2021-03-01 21:20:21 WARN  Protocol:15 - Warning message.
+2021-03-01 21:20:21 INFO  Protocol:16 - This message informs.
+2021-03-01 21:20:21 INFO  Protocol:16 - This message informs.
+2021-03-01 21:20:21 DEBUG Protocol:17 - Debug message.
+2021-03-01 21:20:21 DEBUG Protocol:17 - Debug message.
